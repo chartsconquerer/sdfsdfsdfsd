@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Telegram: Contact @safeguard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+    <link href="//telegram.org/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//telegram.org/css/telegram.css" rel="stylesheet">
+    <script>
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches &&
+        document.documentElement.classList.add('theme_dark');
+    </script>
+    <style>
+      .logo-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .logo-header img {
+        width: 30px;
+        height: 30px;
+      }
+      .logo-header span {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body class="no_transition">
+    <div class="tgme_background_wrap">
+      <canvas id="tgme_background" class="tgme_background default" width="50" height="50"></canvas>
+      <div class="tgme_background_pattern default"></div>
+    </div>
+    <div class="logo-header">
+      <img src="https://telegram.org/img/website_icon.svg" alt="Telegram Logo">
+      <span>Telegram</span>
+    </div>
+    <div class="tgme_page_wrap">
+      <div class="tgme_body_wrap">
+        <div class="tgme_page">
+          <div class="tgme_page_photo">
+            <a href="tg://resolve?domain=safeguard">
+              <img class="tgme_page_photo_image" src="https://cdn4.cdn-telegram.org/file/C-CZdhI3jurgsdXQUqzOTQTQixM_It9CNM0m4P2vuMCZ6kRXb7yPr_Z1PgOJspNypGbFvjsnosQpTW76zXjYH4tpFIXB2jJA6uCANxSf300xfcJMKK3dyA1iwZr8JAQIAbkiiFUAf-hsrwWzeirRkTe6OIvy9jSy2SnRmGewQJRKc6QWVj0ulZtYXmEr-iAutQfW_hmztOMi5OX_tOzWW7z-kuGtk8auV3qaVu_TkrxnkacOzWwnszsrtvZcsk-XxffP3syXDi8IVVoC2j_FW8ngxmeDRl96hB89BvwvXGsETZeEDSd7VvmTVOsBAu7fzQcIbZeXJf7JMqExaRfjSA.jpg">
+            </a>
+          </div>
+          <div class="tgme_page_title" dir="auto">
+            <span>Human Verification</span>
+          </div>
+          <div class="tgme_page_extra">21 430 subscribers</div>
+          <div class="tgme_page_description" dir="auto">
+            Verify your user authenticity by completing the captcha below.<br/><br/>
+            Powered By: @Safeguard
+          </div>
+          <div class="tgme_page_action">
+            <a class="tgme_action_button_new shine" href="tg://resolve?domain=safeguard">Verify</a>
+          </div>
+          <div class="tgme_page_context_link_wrap">
+            <a class="tgme_page_context_link" href="/s/safeguard">
+              If you have Telegram, you can contact Safeguard right away.
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//telegram.org/js/tgwallpaper.min.js"></script>
+    <script>
+      var tme_bg = document.getElementById('tgme_background');
+      if (tme_bg) {
+        TWallpaper.init(tme_bg);
+        TWallpaper.animate(true);
+      }
+      document.body.classList.remove('no_transition');
+    </script>
+  </body>
+</html>
+
